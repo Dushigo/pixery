@@ -1,4 +1,4 @@
-# project_flutter
+# pixery
 
 A new Flutter application.
 
