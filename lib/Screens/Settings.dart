@@ -1,21 +1,21 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-class SplashScreen extends StatelessWidget {
+class Settings extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return SplashScreenPage();
+    return SettingsPage();
   }
 }
 
-class SplashScreenPage extends StatefulWidget {
-  SplashScreenPage({Key key}) : super(key: key);
+class SettingsPage extends StatefulWidget {
+  SettingsPage({Key key}) : super(key: key);
 
   @override
-  _SplashScreenPageState createState() => _SplashScreenPageState();
+  _SettingsPageState createState() => _SettingsPageState();
 }
 
-class _SplashScreenPageState extends State<SplashScreenPage> {
+class _SettingsPageState extends State<SettingsPage> {
 
   @override
   Widget build(BuildContext context) {

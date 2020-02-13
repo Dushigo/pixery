@@ -1,5 +1,7 @@
+
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:project_flutter/Screens/Library.dart';
 import 'Screens/SplashScreen.dart';
 
 var route = MaterialApp(
@@ -8,9 +10,10 @@ var route = MaterialApp(
   routes: {
     '/': (context) {
       SystemChrome.setEnabledSystemUIOverlays([]);
-      return SplashScreen();
+      return Library();
     },
     '/splashScreen': (context) => SplashScreen(),
+    '/library': (context) => Library(),
 //    '/authentification': (context) => Authentification(),
 //    '/': (context =>
   },
