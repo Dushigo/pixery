@@ -1,6 +1,6 @@
 # pixery
 
-A new Flutter application.
+A pixelArt simple clone (https://play.google.com/store/apps/details?id=com.europosit.pixelcoloring&hl=en)
 
 ## Getting Started
 
