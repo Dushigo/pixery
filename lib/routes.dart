@@ -1,20 +1,13 @@
 
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
-import 'package:project_flutter/Screens/Library.dart';
+import 'package:project_flutter/Screens/Home.dart';
 import 'Screens/SplashScreen.dart';
 
-var route = MaterialApp(
+MaterialApp route = MaterialApp(
   debugShowCheckedModeBanner: false,
-  initialRoute: '/',
-  routes: {
-    '/': (context) {
-      SystemChrome.setEnabledSystemUIOverlays([]);
-      return Library();
-    },
-    '/splashScreen': (context) => SplashScreen(),
-    '/library': (context) => Library(),
-//    '/authentification': (context) => Authentification(),
-//    '/': (context =>
+  initialRoute: '/home',
+  routes: <String, WidgetBuilder>{
+    '/splashScreen': (BuildContext context) => SplashScreen(),
+    '/home': (BuildContext context) => Home(),
   },
 );

@@ -4,12 +4,12 @@ import 'package:flutter/material.dart';
 class SplashScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return SplashScreenPage();
+    return const SplashScreenPage();
   }
 }
 
 class SplashScreenPage extends StatefulWidget {
-  SplashScreenPage({Key key}) : super(key: key);
+  const SplashScreenPage({Key key}) : super(key: key);
 
   @override
   _SplashScreenPageState createState() => _SplashScreenPageState();
