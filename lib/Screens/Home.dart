@@ -35,7 +35,7 @@ class _HomePageState extends State<HomePage> {
     else if (_selectedIndex == 2) {
       return const Text('In last page');
     }
-
+    return null;
   }
 
   @override
